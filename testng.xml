@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NRPuite">
+
+ <listeners>
+
+<listener class-name="nrp_utilities.listeners"/>
+
+</listeners>
+
+  <test thread-count="5" name="Test1">
+    <classes>
+ <!-- <class name="nrp_testcases.RoughWork"/>-->
+     <class name="nrp_testcases.VerifyCrossLocationDatawithCalendar"/>
+      <!--<class name="nrp_testcases.VerifyDailyDataGrainAndPresentByDayFormulaCheck"/>-->
+      </classes>
+      </test>
+      
+       
+      
+      </suite> 
